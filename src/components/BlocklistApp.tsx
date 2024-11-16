@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { useDebounce } from 'react-use';
-import { Search, Shield, User } from 'lucide-react';
+import { Search, User } from 'lucide-react';
 
 interface Profile {
   avatar?: string;
